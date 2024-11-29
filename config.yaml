@@ -1,0 +1,26 @@
+file_path: '.\files'
+
+# 阿里-通义千问
+# llm_model_name: 'qwen-turbo'
+# embedding_model_name: 'text-embedding-v1'
+# base_url: 'https://dashscope.aliyuncs.com/compatible-mode/v1'
+
+# 百度-千帆
+llm_model_name: 'ERNIE-Speed-128K'
+embedding_model_name: 'Embedding-V1'
+
+# 相似度阈值
+similarity_threshold: 1.5
+
+# 摘要长度
+summary_length: 300
+
+# AI生成长度
+ai_length: 500
+
+# AI生成温度
+ai_temperature: 0.9
+
+# 文档分块大小
+chunk_size: 200
+chunk_overlap: 50
