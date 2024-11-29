@@ -10,7 +10,7 @@ from vector_db import initialize_vector_db
 from qa_system import setup_qa_system, query_qa_system
 
 def main():
-    # 配置日志记录器
+    # 配置日志记录器1
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
